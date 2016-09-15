@@ -8,11 +8,11 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "js-marker-clusterer": "^1.0.0"
+    "js-marker-clusterer": "^1.0.0",
+    "lodash": "^3.10.1"
   },
   "peerDependencies": {
     "vue": "^1.0.0",
-    "lodash": "^3.10.1",
     "q": "^1.4.1"
   },
   "devDependencies": {
